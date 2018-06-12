@@ -1,0 +1,16 @@
+language: bash
+services: docker
+
+env:
+  - SOFT=node-dockerfile REPO=shion/node
+
+before_script:
+  - env
+  - cd "$SOFT"
+  - image="${REPO}"
+
+script:
+  - docker build ./ -t "$image"
+
+after_script:
+  - docker images
