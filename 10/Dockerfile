@@ -1,4 +1,4 @@
-FROM node:8.11-alpine
+FROM node:10.15-alpine
 MAINTAINER Shion <shion.chow@gmail.com>
 
 RUN apk add --no-cache yarn \
