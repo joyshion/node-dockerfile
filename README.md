@@ -12,6 +12,7 @@
 ### 版本
 - `shion/node:8`
 - `shion/node:10`, `latest`
+- `shion/node:12`
 
 ### 使用说明
 ```sh
